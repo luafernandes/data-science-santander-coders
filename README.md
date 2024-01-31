@@ -1,2 +1,3 @@
-# data-science-santander-coders
-Repository to store exercises and examples related to the Santander Coders Data Science course at Ada Tech.
+# Santander Coders 2023.2 | Ada Tech
+
+Repositório para armazenar exercícios e exemplos referentes ao curso de Data Science do Santander Coders na Ada Tech.
