@@ -14,16 +14,16 @@ INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
 
 
 INSERT INTO hospede (cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES
-(48217560994,'Amanda Costa','amanda.costa@gmail.com','(23) 98765-4321','crédito','4.3'),
-(26793580159,'Rafael Santos','rafael.santos@outlook.com','(33) 87654-3210','débito','4.1'),
-(72801369403,'Patricia Oliveira','patricia.oliveira@hotmail.com','(43) 76543-2109','pix','4.4'),
-(13290687503,'Eduardo Lima','eduardo.lima@gmail.com','(53) 65432-1098','crédito','3.9'),
-(39104275888,'Fernanda Correia','fernanda.correia@outlook.com','(63) 54321-0987','débito','4.5'),
-(39671248004,'Gabriel Almeida','gabriel.almeida@hotmail.com','(73) 43210-9876','pix','4.2'),
-(86579213086,'Isabela Moura','isabela.moura@gmail.com','(83) 32109-8765','crédito','4.0'),
-(93256170480,'Henrique Dias','henrique.dias@outlook.com','(93) 21098-7654','débito','4.6'),
-(79658340229,'Julia Barros','julia.barros@hotmail.com','(13) 10987-6543','pix','4.7'),
-(89425730105,'Marcos Peixoto','marcos.peixoto@gmail.com','(23) 09876-5432','crédito','3.8');
+('48217560994','Amanda Costa','amanda.costa@gmail.com','(23) 98765-4321','crédito','4.3'),
+('26793580159','Rafael Santos','rafael.santos@outlook.com','(33) 87654-3210','débito','4.1'),
+('72801369403','Patricia Oliveira','patricia.oliveira@hotmail.com','(43) 76543-2109','pix','4.4'),
+('13290687503','Eduardo Lima','eduardo.lima@gmail.com','(53) 65432-1098','crédito','3.9'),
+('39104275888','Fernanda Correia','fernanda.correia@outlook.com','(63) 54321-0987','débito','4.5'),
+('39671248004','Gabriel Almeida','gabriel.almeida@hotmail.com','(73) 43210-9876','pix','4.2'),
+('86579213086','Isabela Moura','isabela.moura@gmail.com','(83) 32109-8765','crédito','4.0'),
+('93256170480','Henrique Dias','henrique.dias@outlook.com','(93) 21098-7654','débito','4.6'),
+('79658340229','Julia Barros','julia.barros@hotmail.com','(13) 10987-6543','pix','4.7'),
+('89425730105','Marcos Peixoto','marcos.peixoto@gmail.com','(23) 09876-5432','crédito','3.8');
 
 
 INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, tipo_imovel, limite_hospede, qtd_quartos, qtd_banheiros, wifi, tv, pet_friendly, ar_condicionado, piscina, churrasqueira, avaliacao, horario_check_in, horario_check_out, descricao) VALUES
