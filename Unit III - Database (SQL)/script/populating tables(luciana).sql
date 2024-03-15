@@ -13,16 +13,16 @@ INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
 ('19052736499','Lucca Stravinsky','(11) 97865-2431','lstravinsky@gmail.com','russo','4.3');
 
 INSERT INTO hospede (cpf, nome, telefone, email, forma_pagamento, avaliacao) VALUES
-(73948012687,'Rafael Turbo','rafael.turbo@outlook.com','(11) 99234-5876','crédito','4.1'),
-(34108759214,'Bianca Nuvem','bianuvem@gmail.com','(21) 97531-6428','pix','3.8'),
-(6358497200,'Túlio Maravilha','tulio.marav@hotmail.com','(31) 95642-7819','débito','4.4'),
-(10985476249,'Soraya Montenegro','s.montenegro@gmail.com','(41) 92715-4982','crédito','4.7'),
-(35762081940,'Zenon Estelar','zenon.estelar@outlook.com','(51) 98462-3571','pix','3.5'),
-(78326410535,'Lira Cosmic','lira.cosmic@gmail.com','(61) 99381-5623','débito','4.2'),
-(28354796191,'Olavo Sky','olavo.sky@hotmail.com','(71) 97248-6253','crédito','4.6'),
-(83694512098,'Pietra Lunar','pietra.lunar@gmail.com','(81) 95862-3748','pix','4.0'),
-(80463251717,'Cassio Nebula','cassio.neb@outlook.com','(91) 94257-8264','débito','3.9'),
-(23071695802,'Iris Vega','iris.vega@gmail.com','(11) 97458-2961','crédito','4.3');
+('73948012687','Rafael Turbo','rafael.turbo@outlook.com','(11) 99234-5876','crédito','4.1'),
+('34108759214','Bianca Nuvem','bianuvem@gmail.com','(21) 97531-6428','pix','3.8'),
+('6358497200','Túlio Maravilha','tulio.marav@hotmail.com','(31) 95642-7819','débito','4.4'),
+('10985476249','Soraya Montenegro','s.montenegro@gmail.com','(41) 92715-4982','crédito','4.7'),
+('35762081940','Zenon Estelar','zenon.estelar@outlook.com','(51) 98462-3571','pix','3.5'),
+('78326410535','Lira Cosmic','lira.cosmic@gmail.com','(61) 99381-5623','débito','4.2'),
+('28354796191','Olavo Sky','olavo.sky@hotmail.com','(71) 97248-6253','crédito','4.6'),
+('83694512098','Pietra Lunar','pietra.lunar@gmail.com','(81) 95862-3748','pix','4.0'),
+('80463251717','Cassio Nebula','cassio.neb@outlook.com','(91) 94257-8264','débito','3.9'),
+('23071695802','Iris Vega','iris.vega@gmail.com','(11) 97458-2961','crédito','4.3');
 
 INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, tipo_imovel, limite_hospede, qtd_quartos, qtd_banheiros, wifi, tv, pet_friendly, ar_condicionado, piscina, churrasqueira, avaliacao, horario_check_in, horario_check_out, descricao) VALUES
 (DEFAULT,'17354026999','150','Rio de Janeiro','Vista do Corcovado','Apartamento','4','2','1',True,True,False,True,False,True,'4.8','14:00:00','11:00:00','"Um aconchegante apartamento..."'),
@@ -37,13 +37,13 @@ INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, t
 (DEFAULT,'19052736499','130','Ouro Preto','Histórias do Passado','Casa','6','4','2',True,False,True,False,False,True,'4.3','14:00:00','11:00:00','"Imersão na história brasileira..."');
 
 INSERT INTO reserva (qtd_hospede, check_in, check_out, id_imovel, cpf_hospede) VALUES
-('2','2024-04-15','2024-04-18','1',73948012687),
-('4','2024-05-22','2024-05-26','2',34108759214),
-('3','2024-06-01','2024-06-05','3',6358497200),
-('5','2024-07-18','2024-07-23','4',10985476249),
-('2','2024-08-09','2024-08-12','5',35762081940),
-('1','2024-09-15','2024-09-18','6',78326410535),
-('6','2024-10-03','2024-10-05','7',28354796191),
-('3','2024-11-21','2024-11-25','8',83694512098),
-('4','2024-12-12','2024-12-15','9',80463251717),
-('2','2024-12-28','2025-01-02','10',23071695802);
+('2','2024-04-15','2024-04-18','1','73948012687'),
+('4','2024-05-22','2024-05-26','2','34108759214'),
+('3','2024-06-01','2024-06-05','3','6358497200'),
+('5','2024-07-18','2024-07-23','4','10985476249'),
+('2','2024-08-09','2024-08-12','5','35762081940'),
+('1','2024-09-15','2024-09-18','6','78326410535'),
+('6','2024-10-03','2024-10-05','7','28354796191'),
+('3','2024-11-21','2024-11-25','8','83694512098'),
+('4','2024-12-12','2024-12-15','9','80463251717'),
+('2','2024-12-28','2025-01-02','10','23071695802');

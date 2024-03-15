@@ -1,3 +1,5 @@
+USE airbnb_db
+
 INSERT INTO anfitriao (cpf, nome, telefone, idioma, email, avaliacao)
 VALUES
 ('41590823605','Ana Silva','11987654321','ana.silva@email.com','portugues','4.5'),
