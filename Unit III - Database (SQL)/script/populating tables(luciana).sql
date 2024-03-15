@@ -1,49 +1,49 @@
 USE airbnb_db;
 
 INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
-('12345678900','Ana Silva','11987654321','ana.silva@hotmail.com','portugues','4.5'),
-('23456789001','João Lima','21976543210','joao.lima@outlook.com','ingles','4.2'),
-('34567890102','Maria Gonçalves','31965432109','maria.gon@gmail.com','espanhol','4.8'),
-('45678901203','Roberto Souza','41954321098','roberto.souza@hotmail.com','frances','4.0'),
-('56789012304','Carla Dias','51943210987','carla.dias@uol.com.br','italiano','4.3'),
-('67890123405','Pedro Martins','61932109876','pedro.martins@hotmail.com','alemao','4.7'),
-('78901234506','Fernanda Rocha','71921098765','fernanda.rocha@outlook.com','russo','3.9'),
-('89012345607','Lucas Mendes','81910987654','lucas.mendes@outlook.com','japones','4.1'),
-('90123456708','Beatriz Correia','91909876543','beatriz.correia@gmail.com','chines','4.4'),
-('01234567809','Rafaela Neves','11898765432','rafaela.neves@hotmail.com','portugues','4.6');
+('17354026999','Maximo Renart','(11) 95021-5789','maximo.renart@outlook.com','portugues','4.5'),
+('29708463140','Isadora Velasquez','(21) 98205-4321','isavelasquez@gmail.com','ingles','4.8'),
+('15264308780','Yago Flister','(31) 94702-5638','y.flister@hotmail.com','espanhol','4.2'),
+('16594827391','Tereza Gomes','(41) 92618-7492','terezagomes@gmail.com','portugues','3.9'),
+('82653174928','Oliver Quentin','(51) 98514-6235','oliver.q@outlook.com','frances','4.7'),
+('23485019704','Kaique Estrela','(61) 95324-7812','kaiqueest@hotmail.com','portugues','3.5'),
+('90642715858','Helena Bonham','(71) 98245-1567','hbonham@gmail.com','ingles','4.4'),
+('13782640969','Bruno Mars Volta','(81) 94621-8723','b.marsvolta@outlook.com','portugues','4.1'),
+('67482930574','Gianna Estefani','(91) 96582-7391','gianna.e@hotmail.com','italiano','4.6'),
+('19052736499','Lucca Stravinsky','(11) 97865-2431','lstravinsky@gmail.com','russo','4.3');
 
 INSERT INTO hospede (cpf, nome, telefone, email, forma_pagamento, avaliacao) VALUES
-('21098765432','Marcos Tavares','21987654321','marcos.tav@outlook.com','crédito','4.1'),
-('32109876543','Julia Carvalho','31876543210','julia.carv@gmail.com','débito','4.3'),
-('43210987654','Tiago Pereira','41765432109','tiago.pere@outlook.com','pix','4.5'),
-('54321098765','Leticia Barbosa','51654321098','leticia.barb@outlook.com','crédito','3.8'),
-('65432109876','Henrique Nogueira','61543210987','henrique.nog@gmail.com','débito','4.2'),
-('76543210987','Amanda Freitas','71432109876','amanda.freit@outlook.com','pix','4.7'),
-('87654321098','Bruno Cesar','81321098765','bruno.cesar@gmail.com','crédito','4.0'),
-('98765432109','Vanessa Lima','91210987654','vanessa.lima@gmail.com','débito','4.4'),
-('09876543210','Caio Moura','11109876543','caio.moura@gmail.com','pix','3.9'),
-('10987654321','Patricia Soares','21098765432','patricia.soares@gmail.com','crédito','4.6');
+(73948012687,'Rafael Turbo','rafael.turbo@outlook.com','(11) 99234-5876','crédito','4.1'),
+(34108759214,'Bianca Nuvem','bianuvem@gmail.com','(21) 97531-6428','pix','3.8'),
+(6358497200,'Túlio Maravilha','tulio.marav@hotmail.com','(31) 95642-7819','débito','4.4'),
+(10985476249,'Soraya Montenegro','s.montenegro@gmail.com','(41) 92715-4982','crédito','4.7'),
+(35762081940,'Zenon Estelar','zenon.estelar@outlook.com','(51) 98462-3571','pix','3.5'),
+(78326410535,'Lira Cosmic','lira.cosmic@gmail.com','(61) 99381-5623','débito','4.2'),
+(28354796191,'Olavo Sky','olavo.sky@hotmail.com','(71) 97248-6253','crédito','4.6'),
+(83694512098,'Pietra Lunar','pietra.lunar@gmail.com','(81) 95862-3748','pix','4.0'),
+(80463251717,'Cassio Nebula','cassio.neb@outlook.com','(91) 94257-8264','débito','3.9'),
+(23071695802,'Iris Vega','iris.vega@gmail.com','(11) 97458-2961','crédito','4.3');
 
 INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, tipo_imovel, limite_hospede, qtd_quartos, qtd_banheiros, wifi, tv, pet_friendly, ar_condicionado, piscina, churrasqueira, avaliacao, horario_check_in, horario_check_out, descricao) VALUES
-(DEFAULT,'12345678900','150','São Paulo','"Conforto na Paulista"','apartamento','2','1','1',True,True,False,True,False,False,'4.8','14:00:00','11:00:00','"Apartamento moderno no coração de São Paulo, ideal para casais ou viajantes solo."'),
-(DEFAULT,'23456789001','300','Rio de Janeiro','"Vista para o mar"','casa','4','2','2',True,True,True,True,True,True,'4.9','15:00:00','12:00:00','"Casa espaçosa com vista deslumbrante para o mar, perfeita para famílias ou grupos de amigos."'),
-(DEFAULT,'34567890102','200','Salvador','"História e cultura"','pousada','2','1','1',True,False,True,False,False,False,'4.7','13:00:00','10:00:00','"Pousada charmosa no centro histórico, imersa na cultura local."'),
-(DEFAULT,'45678901203','250','Florianópolis','"Pé na areia"','chalé','3','2','1',True,True,True,True,False,True,'4.6','14:00:00','11:00:00','"Chalé aconchegante na beira da praia, ideal para quem busca relaxar ao som das ondas."'),
-(DEFAULT,'56789012304','180','Belo Horizonte','"Sossego da cidade"','apartamento','2','1','1',True,True,False,True,False,False,'4.2','15:00:00','12:00:00','"Apartamento tranquilo com todas as comodidades para uma estadia confortável na cidade."'),
-(DEFAULT,'67890123405','400','Gramado','"Charme europeu"','casa','5','3','2',True,True,True,True,True,True,'4.9','16:00:00','11:00:00','"Casa ampla e decorada ao estilo europeu, com lareira e vista para as montanhas."'),
-(DEFAULT,'78901234506','220','Fortaleza','"Brilho do sol"','pousada','2','1','1',True,False,True,True,False,False,'4.5','14:00:00','11:00:00','"Pousada aconchegante com fácil acesso à praia e ao melhor da culinária local."'),
-(DEFAULT,'89012345607','130','Curitiba','"Conexão com a natureza"','apartamento','1','1','1',True,True,False,True,False,False,'4.3','13:00:00','10:00:00','"Apartamento compacto, ideal para quem busca uma estadia econômica com conforto e praticidade."'),
-(DEFAULT,'90123456708','350','Porto Alegre','"Refúgio urbano"','casa','4','3','2',True,True,True,True,True,False,'4.7','15:00:00','12:00:00','"Casa espaçosa com jardim e área de lazer, perfeita para relaxar em meio à cidade."'),
-(DEFAULT,'01234567809','280','Manaus','"Aventura Amazônica"','chalé','3','2','2',True,True,True,True,False,True,'4.8','14:00:00','11:00:00','"Chalé rústico com acesso direto à natureza, ideal para exploradores da biodiversidade amazônica."');
+(DEFAULT,'17354026999','150','Rio de Janeiro','Vista do Corcovado','Apartamento','4','2','1',True,True,False,True,False,True,'4.8','14:00:00','11:00:00','"Um aconchegante apartamento..."'),
+(DEFAULT,'29708463140','300','Gramado','Chalé da Serra','Chalé','6','3','2',True,True,True,True,True,True,'4.9','15:00:00','12:00:00','"Desfrute do aconchego..."'),
+(DEFAULT,'15264308780','250','Salvador','Cantinho do Axé','Casa','5','2','2',True,False,True,False,True,False,'4.5','14:00:00','11:00:00','"Casa espaçosa com piscina..."'),
+(DEFAULT,'16594827391','90','São Paulo','Apto Moderno SP','Apartamento','2','1','1',True,True,False,True,False,False,'4.2','13:00:00','10:00:00','"Ideal para estadias rápidas..."'),
+(DEFAULT,'82653174928','120','Curitiba','Refúgio do Jardim','Casa','3','2','1',True,False,True,True,False,True,'4.7','15:00:00','12:00:00','"Uma casa com grande área verde..."'),
+(DEFAULT,'23485019704','80','Belo Horizonte','Conexão BH','Apartamento','2','1','1',True,True,False,False,False,False,'3.8','14:00:00','11:00:00','"Compacto, ideal para negócios..."'),
+(DEFAULT,'90642715858','200','Natal','Pé na Areia','Casa','4','3','2',True,True,True,True,False,False,'4.6','16:00:00','11:00:00','"Casa frente para o mar..."'),
+(DEFAULT,'13782640969','175','Fortaleza','Brisa do Mar','Apartamento','4','2','2',True,True,True,True,True,False,'4.4','15:00:00','10:00:00','"Apartamento com vista para o mar..."'),
+(DEFAULT,'67482930574','220','Florianópolis','Santuário da Ilha','Pousada','5','3','3',True,True,True,True,True,True,'5.0','15:00:00','12:00:00','"Experiência única em meio à natureza..."'),
+(DEFAULT,'19052736499','130','Ouro Preto','Histórias do Passado','Casa','6','4','2',True,False,True,False,False,True,'4.3','14:00:00','11:00:00','"Imersão na história brasileira..."');
 
 INSERT INTO reserva (qtd_hospede, check_in, check_out, id_imovel, cpf_hospede) VALUES
-('2','2020-04-15','2020-04-20','1','21098765432'),
-('4','2018-05-10','2018-05-15','2','32109876543'),
-('1','2018-06-01','2018-06-03','3','43210987654'),
-('3','2020-07-21','2020-07-25','4','54321098765'),
-('2','2022-08-05','2022-08-10','5','65432109876'),
-('5','2022-09-12','2022-09-19','6','76543210987'),
-('2','2021-10-03','2021-10-05','7','87654321098'),
-('4','2016-11-22','2016-11-30','8','98765432109'),
-('1','2021-12-15','2021-12-18','9','09876543210'),
-('3','2023-01-09','2023-01-15','10','10987654321');
+('2','2024-04-15','2024-04-18','1',73948012687),
+('4','2024-05-22','2024-05-26','2',34108759214),
+('3','2024-06-01','2024-06-05','3',6358497200),
+('5','2024-07-18','2024-07-23','4',10985476249),
+('2','2024-08-09','2024-08-12','5',35762081940),
+('1','2024-09-15','2024-09-18','6',78326410535),
+('6','2024-10-03','2024-10-05','7',28354796191),
+('3','2024-11-21','2024-11-25','8',83694512098),
+('4','2024-12-12','2024-12-15','9',80463251717),
+('2','2024-12-28','2025-01-02','10',23071695802);
