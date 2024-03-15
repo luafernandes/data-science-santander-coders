@@ -1,0 +1,10 @@
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('37610100013', 'Vitor Ferreira Fernandes', 'vitorffernandes@gmail.com', '79922675474', 'credito', 5);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('83331606030', 'Luiz Santos Alves', 'luizalves@gmail.com', '98921561783', 'debito', 3.2);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('77978882055', 'Mateus Melo Barros', 'mmbarros@gmail.com', '69924797191', 'credito', 4.2);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('67360355036', 'Marisa Oliveira Rocha', 'maolirocha@hotmail.com', '86936213577', 'credito', 3.5);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('90121690032', 'Breno Silva Carvalho', 'breninho.carvalho@outlook.com', '85921226335', 'debito', 4.6);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('89332564078', 'Lara Pinto Oliveira', 'larapoliveira@outlook.com', '64929569817', 'credito', 4.7);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('61460470079', 'Agatha Pinto Araujo', 'agaparaujo@gmail.com', '97938082174', 'pix', 5);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('27384808022', 'Leticia Sousa Fernandes', 'lesouza@outlook.com', '11927488163', 'pix', 4.9);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('58397305050', 'Julia Porto Araujo', 'juportoaraujo@gmail.com', '54928271730', 'credito', 1.2);
+INSERT INTO hospede(cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES('33534345002', 'Tiago Silva Almeida', 'tiagosilvaalmeida@gmail.com', '79932524566', 'credito', 3.8);

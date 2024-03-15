@@ -1,0 +1,10 @@
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(4, '37610100013', 2, '2024-04-15  08:00:00', '2024-04-20  12:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(2, '83331606030', 3, '2024-07-20  10:00:00', '2024-07-25  13:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(2, '77978882055', 4, '2024-08-18  06:00:00', '2024-08-23  08:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(5, '67360355036', 5, '2024-09-10  12:00:00', '2024-09-15  12:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(4, '90121690032', 6, '2024-04-10  08:00:00', '2024-04-13  08:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(1, '89332564078', 7, '2024-05-05  08:00:00', '2024-05-12  12:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(2, '61460470079', 8, '2024-10-05  09:00:00', '2024-10-10  11:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(1, '27384808022', 9, '2024-03-15  10:00:00', '2024-03-22  10:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(8, '58397305050', 10, '2024-03-29  07:00:00', '2024-04-02  14:00:00');
+INSERT INTO reserva(qnt_hospede, cpf_hospede, id_imovel, check_in, check_out) VALUES(6, '33534345002', 11, '2024-04-15  09:00:00', '2024-04-20  11:00:00');
