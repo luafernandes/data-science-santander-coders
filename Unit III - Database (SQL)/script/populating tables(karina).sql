@@ -1,29 +1,29 @@
 USE airbnb_db;
 
 INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
-('57694103884','Lara Fonseca','(12) 98765-4321','lara.fonseca@outlook.com','Português','4.7'),
-('10593672895','Tiago Ribeiro','(22) 87654-3210','tiago.ribeiro@gmail.com','Inglês','4.5'),
-('72689513021','Mariana Leal','(32) 76543-2109','mariana.leal@hotmail.com','Espanhol','4.2'),
-('56320841753','Felipe Castro','(42) 65432-1098','felipe.castro@outlook.com','Francês','3.8'),
-('91265738491','Sofia Gomes','(52) 54321-0987','sofia.gomes@gmail.com','Italiano','4.4'),
-('70169438287','Bruno Ferreira','(62) 43210-9876','bruno.ferreira@hotmail.com','Alemão','4.6'),
-('82359601768','Paula Rodrigues','(72) 32109-8765','paula.rodrigues@outlook.com','Russo','4.1'),
-('19420356833','Carlos Mendes','(82) 21098-7654','carlos.mendes@gmail.com','Japonês','4.3'),
-('35980461701','Rebeca Martins','(92) 10987-6543','rebeca.martins@hotmail.com','Chinês','4.0'),
-('69738042500','Lucas Silva','(12) 09876-5432','lucas.silva@outlook.com','Português','4.5');
+('57694103884','Lara Fonseca','12987654321','lara.fonseca@outlook.com','Português','4.7'),
+('10593672895','Tiago Ribeiro','22876543210','tiago.ribeiro@gmail.com','Inglês','4.5'),
+('72689513021','Mariana Leal','32765432109','mariana.leal@hotmail.com','Espanhol','4.2'),
+('56320841753','Felipe Castro','42654321098','felipe.castro@outlook.com','Francês','3.8'),
+('91265738491','Sofia Gomes','52543210987','sofia.gomes@gmail.com','Italiano','4.4'),
+('70169438287','Bruno Ferreira','62432109876','bruno.ferreira@hotmail.com','Alemão','4.6'),
+('82359601768','Paula Rodrigues','72321098765','paula.rodrigues@outlook.com','Russo','4.1'),
+('19420356833','Carlos Mendes','82210987654','carlos.mendes@gmail.com','Japonês','4.3'),
+('35980461701','Rebeca Martins','92109876543','rebeca.martins@hotmail.com','Chinês','4.0'),
+('69738042500','Lucas Silva','12098765432','lucas.silva@outlook.com','Português','4.5');
 
 
 INSERT INTO hospede (cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES
-('48217560994','Amanda Costa','amanda.costa@gmail.com','(23) 98765-4321','crédito','4.3'),
-('26793580159','Rafael Santos','rafael.santos@outlook.com','(33) 87654-3210','débito','4.1'),
-('72801369403','Patricia Oliveira','patricia.oliveira@hotmail.com','(43) 76543-2109','pix','4.4'),
-('13290687503','Eduardo Lima','eduardo.lima@gmail.com','(53) 65432-1098','crédito','3.9'),
-('39104275888','Fernanda Correia','fernanda.correia@outlook.com','(63) 54321-0987','débito','4.5'),
-('39671248004','Gabriel Almeida','gabriel.almeida@hotmail.com','(73) 43210-9876','pix','4.2'),
-('86579213086','Isabela Moura','isabela.moura@gmail.com','(83) 32109-8765','crédito','4.0'),
-('93256170480','Henrique Dias','henrique.dias@outlook.com','(93) 21098-7654','débito','4.6'),
-('79658340229','Julia Barros','julia.barros@hotmail.com','(13) 10987-6543','pix','4.7'),
-('89425730105','Marcos Peixoto','marcos.peixoto@gmail.com','(23) 09876-5432','crédito','3.8');
+('48217560994','Amanda Costa','amanda.costa@gmail.com','23987654321','crédito','4.3'),
+('26793580159','Rafael Santos','rafael.santos@outlook.com','33876543210','débito','4.1'),
+('72801369403','Patricia Oliveira','patricia.oliveira@hotmail.com','43765432109','pix','4.4'),
+('13290687503','Eduardo Lima','eduardo.lima@gmail.com','53654321098','crédito','3.9'),
+('39104275888','Fernanda Correia','fernanda.correia@outlook.com','63543210987','débito','4.5'),
+('39671248004','Gabriel Almeida','gabriel.almeida@hotmail.com','73432109876','pix','4.2'),
+('86579213086','Isabela Moura','isabela.moura@gmail.com','83321098765','crédito','4.0'),
+('93256170480','Henrique Dias','henrique.dias@outlook.com','93210987654','débito','4.6'),
+('79658340229','Julia Barros','julia.barros@hotmail.com','13109876543','pix','4.7'),
+('89425730105','Marcos Peixoto','marcos.peixoto@gmail.com','23098765432','crédito','3.8');
 
 
 INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, tipo_imovel, limite_hospede, qtd_quartos, qtd_banheiros, wifi, tv, pet_friendly, ar_condicionado, piscina, churrasqueira, avaliacao, horario_check_in, horario_check_out, descricao) VALUES

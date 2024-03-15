@@ -1,28 +1,28 @@
 USE airbnb_db;
 
 INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
-('17354026999','Maximo Renart','(11) 95021-5789','maximo.renart@outlook.com','portugues','4.5'),
-('29708463140','Isadora Velasquez','(21) 98205-4321','isavelasquez@gmail.com','ingles','4.8'),
-('15264308780','Yago Flister','(31) 94702-5638','y.flister@hotmail.com','espanhol','4.2'),
-('16594827391','Tereza Gomes','(41) 92618-7492','terezagomes@gmail.com','portugues','3.9'),
-('82653174928','Oliver Quentin','(51) 98514-6235','oliver.q@outlook.com','frances','4.7'),
-('23485019704','Kaique Estrela','(61) 95324-7812','kaiqueest@hotmail.com','portugues','3.5'),
-('90642715858','Helena Bonham','(71) 98245-1567','hbonham@gmail.com','ingles','4.4'),
-('13782640969','Bruno Mars Volta','(81) 94621-8723','b.marsvolta@outlook.com','portugues','4.1'),
-('67482930574','Gianna Estefani','(91) 96582-7391','gianna.e@hotmail.com','italiano','4.6'),
-('19052736499','Lucca Stravinsky','(11) 97865-2431','lstravinsky@gmail.com','russo','4.3');
+('17354026999','Maximo Renart','11950215789','maximo.renart@outlook.com','portugues','4.5'),
+('29708463140','Isadora Velasquez','21982054321','isavelasquez@gmail.com','ingles','4.8'),
+('15264308780','Yago Flister','31947025638','y.flister@hotmail.com','espanhol','4.2'),
+('16594827391','Tereza Gomes','41926187492','terezagomes@gmail.com','portugues','3.9'),
+('82653174928','Oliver Quentin','51985146235','oliver.q@outlook.com','frances','4.7'),
+('23485019704','Kaique Estrela','61953247812','kaiqueest@hotmail.com','portugues','3.5'),
+('90642715858','Helena Bonham','71982451567','hbonham@gmail.com','ingles','4.4'),
+('13782640969','Bruno Mars Volta','81946218723','b.marsvolta@outlook.com','portugues','4.1'),
+('67482930574','Gianna Estefani','91965827391','gianna.e@hotmail.com','italiano','4.6'),
+('19052736499','Lucca Stravinsky','11978652431','lstravinsky@gmail.com','russo','4.3');
 
 INSERT INTO hospede (cpf, nome, telefone, email, forma_pagamento, avaliacao) VALUES
-('73948012687','Rafael Turbo','rafael.turbo@outlook.com','(11) 99234-5876','crédito','4.1'),
-('34108759214','Bianca Nuvem','bianuvem@gmail.com','(21) 97531-6428','pix','3.8'),
-('6358497200','Túlio Maravilha','tulio.marav@hotmail.com','(31) 95642-7819','débito','4.4'),
-('10985476249','Soraya Montenegro','s.montenegro@gmail.com','(41) 92715-4982','crédito','4.7'),
-('35762081940','Zenon Estelar','zenon.estelar@outlook.com','(51) 98462-3571','pix','3.5'),
-('78326410535','Lira Cosmic','lira.cosmic@gmail.com','(61) 99381-5623','débito','4.2'),
-('28354796191','Olavo Sky','olavo.sky@hotmail.com','(71) 97248-6253','crédito','4.6'),
-('83694512098','Pietra Lunar','pietra.lunar@gmail.com','(81) 95862-3748','pix','4.0'),
-('80463251717','Cassio Nebula','cassio.neb@outlook.com','(91) 94257-8264','débito','3.9'),
-('23071695802','Iris Vega','iris.vega@gmail.com','(11) 97458-2961','crédito','4.3');
+('73948012687','Rafael Turbo','rafael.turbo@outlook.com','11992345876','crédito','4.1'),
+('34108759214','Bianca Nuvem','bianuvem@gmail.com','21975316428','pix','3.8'),
+('6358497200','Túlio Maravilha','tulio.marav@hotmail.com','31956427819','débito','4.4'),
+('10985476249','Soraya Montenegro','s.montenegro@gmail.com','41927154982','crédito','4.7'),
+('35762081940','Zenon Estelar','zenon.estelar@outlook.com','51984623571','pix','3.5'),
+('78326410535','Lira Cosmic','lira.cosmic@gmail.com','61993815623','débito','4.2'),
+('28354796191','Olavo Sky','olavo.sky@hotmail.com','71972486253','crédito','4.6'),
+('83694512098','Pietra Lunar','pietra.lunar@gmail.com','81958623748','pix','4.0'),
+('80463251717','Cassio Nebula','cassio.neb@outlook.com','91942578264','débito','3.9'),
+('23071695802','Iris Vega','iris.vega@gmail.com','11974582961','crédito','4.3');
 
 INSERT INTO imovel (id_imovel, cpf_anfitriao, preco_per_noite, cidade, titulo, tipo_imovel, limite_hospede, qtd_quartos, qtd_banheiros, wifi, tv, pet_friendly, ar_condicionado, piscina, churrasqueira, avaliacao, horario_check_in, horario_check_out, descricao) VALUES
 (DEFAULT,'17354026999','150','Rio de Janeiro','Vista do Corcovado','Apartamento','4','2','1',True,True,False,True,False,True,'4.8','14:00:00','11:00:00','"Um aconchegante apartamento..."'),
