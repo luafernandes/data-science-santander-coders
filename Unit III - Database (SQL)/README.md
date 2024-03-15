@@ -28,8 +28,11 @@ O primeiro passo do projeto foi criar as [especificações](https://github.com/l
 
 **III. Modelagem**
 Criamos o diagrama ER e o diagrama lógico seguindo as especificações, este passo foi fundamental para a criação do nosso banco.
+
+***Diagarama Entidade Relacionamento***
 ![Diagrama de Relacionamento](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20%28SQL%29/diagramaER.jpg)
 
+***Diagrama Lógico***
 ![Diagrama Lógico](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20(SQL)/diagrama_logico.jpg)
 
 **IV. Criação do Banco de Dados**
