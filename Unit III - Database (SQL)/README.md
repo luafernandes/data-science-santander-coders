@@ -36,7 +36,8 @@ Criamos o diagrama ER e o diagrama lógico seguindo as especificações, este pa
 ![Diagrama Lógico](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20(SQL)/diagrama_logico.jpg)
 
 **IV. Criação do Banco de Dados** <br/>
-Utilizamos o MySQL para desenvolver os scripts para criar o BD e as tabelas.
+Utilizamos o MySQL para desenvolver os scripts para [criar o BD](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20(SQL)/script/airbnb_db.sql) e as [tabelas](https://github.com/luafernandes/data-science-santander-coders/tree/main/Unit%20III%20-%20Database%20(SQL)/tables).<br/>
+Após a criação do banco de dados, cada integrante do grupo ficou responsável por criar um script com inserção de dados fictícios para cada uma das tabelas (esses scripts estão na pasta [script](https://github.com/luafernandes/data-science-santander-coders/tree/main/Unit%20III%20-%20Database%20(SQL)/script) deste repositório.
 
 **V. Criar opções de consultas** <br/>
-Utilizamos o MySQL para desenvolver os scripts para as consultas.
+Utilizamos o MySQL para desenvolver os scripts para as consultas e cada integrante ficou responsável por criar algumas opções de consultas (esses scripts estão na pasta [queries](https://github.com/luafernandes/data-science-santander-coders/tree/main/Unit%20III%20-%20Database%20(SQL)/queries) deste repositório.
