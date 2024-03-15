@@ -20,13 +20,13 @@ Neste projeto estavam presentes os alunos:
 
 ### Etapas do projeto
 
-**I. Escolha do tema**
+**I. Escolha do tema** <br/>
 Nosso banco de dados foi baseado na empresa Airbnb.
 
-**II. Especificações**
+**II. Especificações** <br/>
 O primeiro passo do projeto foi criar as [especificações](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20(SQL)/especificacoes.pdf), ela foi a base para desenvolvermos o restante dos projetos.
 
-**III. Modelagem**
+**III. Modelagem** <br/>
 Criamos o diagrama ER e o diagrama lógico seguindo as especificações, este passo foi fundamental para a criação do nosso banco.
 
 ***Diagarama Entidade Relacionamento***
@@ -35,6 +35,8 @@ Criamos o diagrama ER e o diagrama lógico seguindo as especificações, este pa
 ***Diagrama Lógico***
 ![Diagrama Lógico](https://github.com/luafernandes/data-science-santander-coders/blob/main/Unit%20III%20-%20Database%20(SQL)/diagrama_logico.jpg)
 
-**IV. Criação do Banco de Dados**
+**IV. Criação do Banco de Dados** <br/>
+Utilizamos o MySQL para desenvolver os scripts para criar o BD e as tabelas.
 
-**V. Criar opções de consultas**
+**V. Criar opções de consultas** <br/>
+Utilizamos o MySQL para desenvolver os scripts para as consultas.
