@@ -12,7 +12,7 @@ INSERT INTO anfitriao (cpf, nome, telefone, email, idioma, avaliacao) VALUES
 ('67482930574','Gianna Estefani','91965827391','gianna.e@hotmail.com','italiano',4.6),
 ('19052736499','Lucca Stravinsky','11978652431','lstravinsky@gmail.com','russo',4.3);
 
-INSERT INTO hospede (cpf, nome, telefone, email, forma_pagamento, avaliacao) VALUES
+INSERT INTO hospede (cpf, nome, email, telefone, forma_pagamento, avaliacao) VALUES
 ('73948012687','Rafael Turbo','rafael.turbo@outlook.com','11992345876','crédito',4.1),
 ('34108759214','Bianca Nuvem','bianuvem@gmail.com','21975316428','pix',3.8),
 ('6358497200','Túlio Maravilha','tulio.marav@hotmail.com','31956427819','débito',4.4),
